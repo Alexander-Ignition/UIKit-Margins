@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Builder-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="UIKit_Margins" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" bounces="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CrV-vW-Bry">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6RB-Ny-bRV">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="359.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Ti-rD-9CZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="60.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Superview" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C7m-HM-yne" customClass="Superview">
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="60.5"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="C7m-HM-yne" secondAttribute="bottom" id="206-0m-8C2"/>
+                                                    <constraint firstItem="C7m-HM-yne" firstAttribute="leading" secondItem="4Ti-rD-9CZ" secondAttribute="leading" id="Cal-pJ-EGY"/>
+                                                    <constraint firstItem="C7m-HM-yne" firstAttribute="top" secondItem="4Ti-rD-9CZ" secondAttribute="top" id="DI3-4k-u5d"/>
+                                                    <constraint firstAttribute="trailing" secondItem="C7m-HM-yne" secondAttribute="trailing" id="udg-OO-WXR"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zz5-Zf-aon">
+                                                <rect key="frame" x="0.0" y="60.5" width="414" height="62"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="System Layout margins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGr-X1-tg8" customClass="Superview">
+                                                        <rect key="frame" x="20" y="27.5" width="374" height="26.5"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstItem="DGr-X1-tg8" firstAttribute="top" secondItem="zz5-Zf-aon" secondAttribute="topMargin" id="4aX-Pf-CcM"/>
+                                                    <constraint firstAttribute="bottomMargin" secondItem="DGr-X1-tg8" secondAttribute="bottom" id="5KY-vE-9Kb"/>
+                                                    <constraint firstAttribute="trailingMargin" secondItem="DGr-X1-tg8" secondAttribute="trailing" id="A71-7b-lDB"/>
+                                                    <constraint firstItem="DGr-X1-tg8" firstAttribute="leading" secondItem="zz5-Zf-aon" secondAttribute="leadingMargin" id="gku-1U-pcL"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J4c-Yq-b9E">
+                                                <rect key="frame" x="0.0" y="122.5" width="414" height="90.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom Layout margins: 32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZ3-Tb-lwJ" customClass="Superview">
+                                                        <rect key="frame" x="32" y="32" width="350" height="26.5"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailingMargin" secondItem="VZ3-Tb-lwJ" secondAttribute="trailing" id="Wzh-nN-W7s"/>
+                                                    <constraint firstItem="VZ3-Tb-lwJ" firstAttribute="top" secondItem="J4c-Yq-b9E" secondAttribute="topMargin" id="Xps-75-rqE"/>
+                                                    <constraint firstItem="VZ3-Tb-lwJ" firstAttribute="leading" secondItem="J4c-Yq-b9E" secondAttribute="leadingMargin" id="cvz-hV-3qh"/>
+                                                    <constraint firstAttribute="bottomMargin" secondItem="VZ3-Tb-lwJ" secondAttribute="bottom" id="o2B-JQ-10I"/>
+                                                </constraints>
+                                                <edgeInsets key="layoutMargins" top="32" left="32" bottom="32" right="32"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZMo-tl-j5T">
+                                                <rect key="frame" x="0.0" y="213" width="414" height="84.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Safe Area margins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Yu-3Q-hqr" customClass="Superview">
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="84.5"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstItem="7Yu-3Q-hqr" firstAttribute="leading" secondItem="7ce-jB-AN1" secondAttribute="leading" id="Dk2-h8-83G"/>
+                                                    <constraint firstItem="7ce-jB-AN1" firstAttribute="trailing" secondItem="7Yu-3Q-hqr" secondAttribute="trailing" id="HNC-VK-heh"/>
+                                                    <constraint firstItem="7Yu-3Q-hqr" firstAttribute="top" secondItem="7ce-jB-AN1" secondAttribute="top" id="MC9-ZG-Ox9"/>
+                                                    <constraint firstItem="7ce-jB-AN1" firstAttribute="bottom" secondItem="7Yu-3Q-hqr" secondAttribute="bottom" id="lmx-qv-wII"/>
+                                                </constraints>
+                                                <viewLayoutGuide key="safeArea" id="7ce-jB-AN1"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cv2-G3-9qK">
+                                                <rect key="frame" x="0.0" y="297.5" width="414" height="62"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Readable Content margins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBG-IC-oiD" customClass="Superview">
+                                                        <rect key="frame" x="20" y="8" width="374" height="46"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailingMargin" secondItem="JBG-IC-oiD" secondAttribute="trailing" id="Ork-HN-Sab"/>
+                                                    <constraint firstItem="JBG-IC-oiD" firstAttribute="leading" secondItem="Cv2-G3-9qK" secondAttribute="leadingMargin" id="Y2Q-Qz-Nbt"/>
+                                                    <constraint firstAttribute="bottomMargin" secondItem="JBG-IC-oiD" secondAttribute="bottom" id="kuQ-TJ-jpL"/>
+                                                    <constraint firstItem="JBG-IC-oiD" firstAttribute="top" secondItem="Cv2-G3-9qK" secondAttribute="topMargin" id="tOg-tm-Re3"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="6RB-Ny-bRV" firstAttribute="leading" secondItem="fcD-1i-afl" secondAttribute="leading" id="Gvp-Wr-LJJ"/>
+                                    <constraint firstItem="fcD-1i-afl" firstAttribute="top" secondItem="6RB-Ny-bRV" secondAttribute="top" id="Kv0-03-sKx"/>
+                                    <constraint firstItem="6RB-Ny-bRV" firstAttribute="bottom" secondItem="fcD-1i-afl" secondAttribute="bottom" id="XNV-Cd-fnF"/>
+                                    <constraint firstItem="6RB-Ny-bRV" firstAttribute="width" secondItem="wzV-A2-JDx" secondAttribute="width" id="lFr-WX-SPo"/>
+                                    <constraint firstItem="6RB-Ny-bRV" firstAttribute="trailing" secondItem="fcD-1i-afl" secondAttribute="trailing" id="t9W-vL-dhf"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="fcD-1i-afl"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="wzV-A2-JDx"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="CrV-vW-Bry" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="6OC-7g-WrV"/>
+                            <constraint firstAttribute="trailing" secondItem="CrV-vW-Bry" secondAttribute="trailing" id="90y-gI-gSH"/>
+                            <constraint firstItem="CrV-vW-Bry" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="Nz8-3u-5lW"/>
+                            <constraint firstAttribute="bottom" secondItem="CrV-vW-Bry" secondAttribute="bottom" id="w0V-sL-ghB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Interface Builder" id="96W-G7-6to">
+                        <barButtonItem key="rightBarButtonItem" title="Grid" id="5tA-Va-Atv">
+                            <connections>
+                                <action selector="toggleGrid" destination="9pv-A4-QxB" id="03P-5p-itO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1659.4202898550725" y="-320.08928571428572"/>
+        </scene>
+        <!--Program margins-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="UIKit_Margins" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Program margins" id="MDO-cg-NhU">
+                        <barButtonItem key="rightBarButtonItem" title="Grid" id="Lk9-gl-gAx">
+                            <connections>
+                                <action selector="toggleGrid" destination="8rJ-Kc-sve" id="rKr-3R-7IF"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1659.4202898550725" y="359.59821428571428"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="pha-al-onI" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="7xY-A3-g0z" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--Program margins-->
+        <scene sceneID="sou-NJ-Hu4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7xY-A3-g0z" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Program margins" image="second" id="cPa-gy-q4n"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qg6-8V-hcD">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="45x-q1-bv6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o0S-80-GZW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.27536231884062" y="359.59821428571428"/>
+        </scene>
+        <!--Interface Builder-->
+        <scene sceneID="fd1-2J-b6T">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pha-al-onI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Interface Builder" image="first" id="acW-dT-cKf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SEk-8F-iNN">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="Ril-rP-tSg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ykg-lC-bXU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.27536231884062" y="-320.08928571428572"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
+    </resources>
+</document>
